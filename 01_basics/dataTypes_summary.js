@@ -33,3 +33,30 @@ const myFunction = function(){
 }
 
 console.log(typeof anotherId);
+
+
+// ==================================== MEMORY =====================================
+
+/*
+    Stack -> Primitive
+    Heap -> Non Primitive
+*/
+
+// Stack
+let myName1 = "rudra"
+let myName2 = myName1
+myName2 = "Rudra"
+
+console.log(myName1);       // OUTPUT: rudra
+console.log(myName2);       // OUTPUT: Rudra
+
+
+// Heap
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "user@gmail.com"
+console.log(userOne.email);         // OUTPUT: user@gmail.com 
+console.log(userTwo.email);         // OUTPUT: user@gmail.com
