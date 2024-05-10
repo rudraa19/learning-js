@@ -13,10 +13,10 @@ const jsUser = {
     lastLoginDays: ["Sunday", "Tuesday"]
 }
 
-// console.log(jsUser.name);
-// console.log(jsUser["name"]);
-// console.log(jsUser["full name"]);
-// console.log(jsUser[mySym]);
+console.log(jsUser.name);
+console.log(jsUser["name"]);
+console.log(jsUser["full name"]);
+console.log(jsUser[mySym]);
 
 jsUser.email = "rudra@chatgpt.com"
 // Object.freeze(jsUser)               // <- does not allow any changes from now on in obj
